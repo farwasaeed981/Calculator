@@ -1,0 +1,26 @@
+body{
+    margin: 50px auto;
+    padding: 100px;
+    background: linear-gradient(to right,rgb(128, 219, 177), #EA738DFF);
+}
+input{
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    background: #4e4e4e;
+    width: 60px;
+    height: 30px;
+}
+.calculator{
+    display: grid;
+    justify-content: center;
+}
+#del{
+    width: 60px;
+}
+#clear, #equal{
+    width: 123px;
+}
+.screen{
+    width: 243px;
+}
